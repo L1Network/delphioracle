@@ -117,7 +117,7 @@ CONTRACT delphioracle : public eosio::contract {
    };
 */
 
-  struct producer_info {
+  TABLE producer_info {
     name                  owner;
     double                total_votes = 0;
     eosio::public_key     producer_key; /// a packed public key object

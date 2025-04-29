@@ -13,7 +13,7 @@
 
 */
 
-#include <delphioracle.hpp>
+#include <delphioracle/delphioracle.hpp>
 
 //Write datapoint
 ACTION delphioracle::write(const name owner, const std::vector<quote>& quotes) {

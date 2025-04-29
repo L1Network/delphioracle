@@ -9,9 +9,13 @@
   "author": "Guillaume Babin-Tremblay",
   "license": "ISC",
   "dependencies": {
+    "@wharfkit/contract": "^1.2.1",
+    "@wharfkit/session": "^1.6.0",
+    "@wharfkit/wallet-plugin-privatekey": "^1.1.0",
+    "colors": "*",
+    "dotenv": "^6.2.0",
     "eosjs": "^16.0.9",
-    "dotenv": "^6.0.0",
-    "request": "*",
-    "colors": "*"
+    "node-fetch": "^3.3.2",
+    "request": "*"
   }
 }

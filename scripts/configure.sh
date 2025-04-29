@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
-cleos set account permission $1 active --add-code
-cleos push action $1 configure  "$(cat configure.json)" -p $1
+cleos1 set account permission delphioracle active --add-code
+cleos1 push action delphioracle configure  "$(cat configure.json)" -p delphioracle
